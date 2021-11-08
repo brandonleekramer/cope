@@ -17,7 +17,7 @@ V(shore_network)$color <- "green"
 plot(shore_network)
 
 # export data 
-write.graph(shore_network, "~/git/cope/data/shore_network.graphml", format = "graphml")
+write.graph(shore_network, "~/git/cope/data/shore_network.graphml", format = "graphml") 
 
 # run dashboard 
 runVOSONDash()
